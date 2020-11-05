@@ -1,0 +1,18 @@
+.wrapper {
+  padding-left: 40px;
+}
+
+.formButton {
+  display: block;
+}
+
+.phonebookTitle{
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.contactsTitle {
+font-size: 30px;
+letter-spacing: 0.7px;
+margin-top: 50px;
+}

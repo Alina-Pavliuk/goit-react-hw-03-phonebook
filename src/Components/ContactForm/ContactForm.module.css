@@ -1,0 +1,62 @@
+.ContactForm {
+  display: block;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  box-shadow: 3px 2px 4px;
+  width: 380px;
+  min-height: 260px;
+}
+
+.inputForm {
+display: block;
+    min-width: 200px;
+    margin-top: 15px;
+}
+
+.titleLabel {
+  display: block;
+  margin-top: 20px;
+}
+
+.titleLabel {
+  color: rgb(70, 69, 69);
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 36px;
+  margin-bottom: 10px;
+  
+}
+
+.inputForm {
+  width: 300px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.inputForm::placeholder {
+  padding-left: 10px;
+  font-style: oblique;
+}
+
+.formButton {
+  display: block;
+  width: 300px;
+  height: 35px;
+  margin: 30px auto 0;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  background-image: linear-gradient(47.73deg, rgb(23, 169, 226) 15.48%, rgb(82, 236, 203) 81.25%);
+  cursor: pointer;
+}
+
+.formButton:hover {
+  /* background-image: linear-gradient(47.73deg, rgb(23, 169, 226) 15.48%, rgb(82, 236, 203) 81.25%); */
+  background-position: center center;
+  box-shadow: 3px 2px 4px darkgray;
+  border-radius: 5px;
+}
